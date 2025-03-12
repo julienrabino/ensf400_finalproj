@@ -1,0 +1,4 @@
+FROM --platform= arm64  
+WORKDIR /opt/anaconda3/bin:/opt/anaconda3/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/johnmbp/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand
+
+COPY package.json .
